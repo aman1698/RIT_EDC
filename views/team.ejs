@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8" />
+    <title>EDC, RIT
+    </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!--Favicon -->
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS Files -->
+
+    <link rel="stylesheet" href="csso/reset.css" />
+    <link rel="stylesheet" href="csso/animate.min.css" />
+    <link rel="stylesheet" href="csso/bootstrap.min.css" />
+    <link rel="stylesheet" href="csso/style.css" />
+    <!-- <link rel="stylesheet" href="csso/flexslider.css" /> -->
+    <link rel="stylesheet" href="csso/font-awesome.css" />
+    <!-- <link rel="stylesheet" href="csso/owl.carousel.css" /> -->
+    <link rel="stylesheet" href="csso/responsive.css" />
+    <link rel="stylesheet" href="csso/gradients.css" />
+    <!-- <link rel="stylesheet" href="csso/player/YTPlayer.css" /> -->
+    <!-- <link rel="stylesheet" href="csso/prettyPhoto.css" /> -->
+    <link rel="stylesheet" href="csso/shortcodes.css" />
+    <!-- Theme Panel -->
+    <link rel="stylesheet" href="theme-panel/theme_panel.css" />
+    <!-- Skin Colors -->
+    <link id="changeable-colors" rel="stylesheet" href="csso/colors/blue.css" />
+    <link rel="stylesheet" href="cssi/style.css">
+    <link rel="stylesheet" href="cssi/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="cssi/thumbnail-gallery.css">
+    <link href="css/agencycopy.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style type="text/css">
+        body {
+            background: #e6e6e6;
+        }
+
+        .team-members .member {
+            display: inline-block;
+            margin: auto;
+        }
+
+        .page_head {
+            margin-top: 80px;
+        }
+
+        .team {
+            position: relative;
+            background-color: #ffffff;
+            /*padding: 20px 20px;*/
+            margin: 10px 10px;
+            display: inline-block;
+            width: 25%;
+        }
+
+        .team::after {
+            content: "";
+            background-color: #1C1D21;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 0%;
+            z-index: 1;
+            -webkit-transition: 0.2s height;
+            transition: 0.2s height;
+        }
+
+        ::selection {
+            background-color: #6195FF;
+            color: #FFF;
+        }
+
+        .team-img {
+            position: relative;
+            margin-bottom: 20px;
+            z-index: 11;
+        }
+
+        .team-img>img {
+            width: 100%;
+        }
+
+        .team .overlay {
+            background: #1C1D21;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            opacity: 0;
+            -webkit-transition: 0.2s opacity;
+            transition: 0.2s opacity;
+        }
+
+        .team .team-social {
+            position: absolute;
+            top: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: 0.2s opacity;
+            transition: 0.2s opacity;
+        }
+
+        .team .team-social a {
+            display: block;
+            line-height: 50px;
+            width: 50px;
+            text-align: center;
+            background-color: #6195FF;
+            color: #FFF;
+        }
+
+        a {
+            color: #6195FF;
+            text-decoration: none;
+            -webkit-transition: 0.2s opacity;
+            transition: 0.2s opacity;
+        }
+
+        .team .team-content {
+            text-align: center;
+            position: relative;
+            z-index: 11;
+        }
+
+        .team .team-content h3 {
+            margin-bottom: 10px;
+            -webkit-transition: 0.2s color;
+            transition: 0.2s color;
+        }
+
+        h3 {
+            font-size: 21px;
+            padding-top: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            color: #10161A;
+        }
+       /* .team{
+            border: 2px solid rgb(6, 6, 14);
+        } */
+        .team .team-content span {
+            font-size: 14px;
+            text-transform: uppercase;
+            -webkit-transition: 0.2s color;
+            transition: 0.2s color;
+        }
+
+        .team:hover:after {
+            height: 100%;
+        }
+
+        .team:hover .overlay {
+            opacity: 0.8;
+        }
+
+        .team:hover .team-social {
+            opacity: 1;
+        }
+
+        .team:hover .team-content h3 {
+            color: #FFF;
+        }
+
+        .team:hover .team-content span {
+            color: #6195FF;
+        }
+
+        a:hover,
+        a:focus {
+            text-decoration: none;
+            outline: none;
+            opacity: 0.8;
+            color: #6195FF;
+        }
+
+        .section-header {
+            position: relative;
+            margin-top: 4px;
+            margin-bottom: 40px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+       /* .md-padding {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }*/
+
+        .title:after {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 40px;
+            background-color: #6195FF;
+            margin-top: 20px;
+        }
+
+        .text-center .title:after {
+            margin: 20px auto 0px;
+        }
+
+        .section {
+            position: relative;
+        }
+
+        @media (min-width:768px) {
+            .container1 {
+                width: 750px
+            }
+        }
+
+        @media (min-width:992px) {
+            .container1 {
+                width: 970px
+            }
+        }
+
+        @media (min-width:1200px) {
+            .container1 {
+                width: 1170px
+            }
+        }
+
+        @media (max-width:992px) {
+            .team {
+                width: 75%
+            }
+        }
+
+        .container1 {
+            padding-right: 15px;
+            text-align: center;
+            padding-left: 15px;
+            margin: 30px auto 0;
+        }
+
+        .past {
+            color: #6195FF;
+            transition: all 0.2s;
+        }
+
+        .past:hover {
+            color: #5b84da;
+        }
+    </style>
+</head>
+
+<body class="all">
+    <!-- Page Loader -->
+    <!-- <section id="pageloader">
+<div class="loader-item fa fa-spin colored-border"></div>
+</section> -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index - Copy (1).html"></a>
+            <img src="img/edclogoweb1.png" width="50" height="50" alt="edc logo">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#portfolio">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#services">Startups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger active" href="/#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation Section -->
+    <!-- Page Header -->
+    <div class="page_header_inner" style="padding-top: 30px">
+        <!-- Header -->
+        <h1 class="page_head normal text-center " style="color: rgb(127, 71, 117);">
+            EDC Team
+        </h1>
+    </div>
+    <!-- End Page Header -->
+    <div id="team"  class="section">
+        <!-- Header -->
+        <!-- <h1 class="header light dark">E-Cell Team</h1> -->
+        <!-- Description -->
+        <!-- <h4 class="h-desc dark">Some awesome line</h4> -->
+        <!-- Members -->
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <div class="section-header text-center">
+                <h2 class="title" style="color: rgb(127, 71, 117);">Overall Coordinators
+                </h2>
+            </div>
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/vaibhav.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/vaibhav-jha-069425166/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Vaibhav Jha </h3>
+                    <h3>Event Management</h3>
+                    <span>
+                        <a target="_top" style="margin-top:100px;" href="mailto:vaibhavjha0789@gmail.com">
+                            vaibhavjha0798@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/vivek.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/vivek-kumar-182935183">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Vivek Kumar Singh </h3>
+                    <h3>Publicity</h3>
+                    <span>
+                        <a target="_top" href="mailto:vks3111996@gmail.com">
+                            vks3111996@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- /Row -->
+        </div>
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/niraj.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/niraj-agarwalla-800191125">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Niraj Agarwalla </h3>
+                    <h3>Finance and Upstarter</h3>
+                    <span>
+                        <a target="_top" href="mailto:agarwalla.niraj23@gmail.com">
+                            agarwalla.niraj23@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/edc1.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/rubina-kaur-ajmani-514563151">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Rubina Ajmani </h3>
+                    <h3>Event Management</h3>
+                    <span>
+                        <a target="_top" href="mailto:rubinaajmani@gmail.com">
+                            rubinaajmani@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- /Row -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/annada.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="http://linkedin.com/in/annada-shukla-3628a4151facebook.com/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Annada Shukla </h3>
+                    <h6>Design and PR & Sponsorship</h6>
+                    <span>
+                        <a target="_top" href="mailto:annadashukla98@gmail.com">
+                            annadashukla98@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/abhigya.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://linkedin.com/in/abhigya-parashar-3bb740159/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Abhigya Parashar </h3>
+                    <h3>PR & Sponsorship</h3>
+                    <span>
+                        <a target="_top" href="mailto:abhigyaparashar22@gmail.com">
+                            abhigyaparashar22@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/aditya.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/aditya-mishra-715935161">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Aditya Mishra </h3>
+                    <h3>Logistics</h3>
+                    <span>
+                        <a target="_top" href="mailto:adityamishra1311@gmail.com">
+                            adityamishra1311@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- team -->
+
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/jagjot.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/jagjot-singh-a97979166">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Jagjot Singh </h3>
+                    <h3>Logistics</h3>
+                    <span>
+                        <a target="_top" href="mailto:Jagjotsingh3197@gmail.com">
+                            Jagjotsingh3197@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- team -->
+
+            <!-- /team -->
+            <!-- team -->
+
+            <!-- /team -->
+            <!-- /Row -->
+        </div>
+
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/raksitha.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/rakshita-h">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Rakshita H. </h3>
+                    <h3>Creativity</h3>
+                    <span>
+                        <a target="_top" href="mailto:hrkulkarni98@gmail.com">
+                            hrkulkarni98@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/aakriti.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/aakriti-suman-b6032115a/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Aakriti Suman </h3>
+                    <h3>Documentation</h3>
+                    <span>
+                        <a target="_top" href="mailto:aakritisuman0@gmail.com">
+                            aakritisuman0@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- /Row -->
+
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/syed.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/sayeedansari">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Sayeed Ansari </h3>
+                    <h3>Coverage</h3>
+                    <span>
+                        <a target="_top" href="mailto:imsayeedansari@gmail.com">
+                            imsayeedansari@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Student Co ordinator-->
+<br><br>
+    <div id="team" class="section">
+        <!-- Header -->
+        <!-- <h1 class="header light dark">E-Cell Team</h1> -->
+        <!-- Description -->
+        <!-- <h4 class="h-desc dark">Some awesome line</h4> -->
+        <!-- Members -->
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <div class="section-header text-center">
+                <h2 class="title" style="color: rgb(127, 71, 117);">Student Coordinators
+                </h2>
+            </div>
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/zeel.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://www.facebook.com/zeel.shah.77770194">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.facebook.com/zeel.shah.77770194/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Zeel Shah </h3>
+                    <h3>Design</h3>
+                    <span>
+                        <a target="_top" style="margin-top:100px;" href="mailto:z4zeel@gmail.com">
+                            z4zeel@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/satyam.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://www.facebook.com/satyamismyname">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/satyam-kumar-701722175">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Satyam Kumar </h3>
+                    <h3>Design</h3>
+                    <span>
+                        <a target="_top" href="mailto:satyamismyname@gmail.com">
+                            satyamismyname@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- /Row -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/prasoon.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://www.facebook.com/prasoon.rajput.35">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Prasoon Saurav </h3>
+                    <h3>Event Management</h3>
+                    <span>
+                        <a target="_top" href="mailto:prasoonjoshi16@gmail.com">
+                            prasoonjoshi16@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/aman.jpg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/aman-gupta-56394215a/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Aman Gupta </h3>
+                    <h3>Finance</h3>
+                    <span>
+                        <a target="_top" href="mailto:gupta.aman1602@gmail.com">
+                            gupta.aman1602@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="img/nandawat.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <!-- facebook -->
+                                <a target="_blank" href="https://www.facebook.com/aditya.nandawat.9">
+                                    <i class="fa fa-facebook">
+                                    </i>
+                                </a>
+                                <!-- Linkedin -->
+                                <a target="_blank" href="http://linkedin.com/in/aditya-singh-nandawat-36176217b">
+                                    <i class="fa fa-linkedin">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>
+                            Aditya Singh Nandawat </h3>
+                        <h3>PR & Sponsorship</h3>
+                        <span>
+                            <a target="_top" href="mailto:adityanandawat@gmail.com">
+                                adityanandawat@gmail.com </a>
+                        </span>
+                    </div>
+                </div>
+            <!-- /team -->
+            <!-- /Row -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/navya.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href=" https://www.linkedin.com/in/navya-bansal-20381516a">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Navya Bansal </h3>
+                    <h3> PR & Sponsorship</h3>
+                    <span>
+                        <a target="_top" href="mailto:navyabansal99@gmail.com">
+                            navyabansal99@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <!-- /Section header -->
+            <!-- team -->
+            
+            <!-- /team -->
+            <!-- team -->
+
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/sreeja.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        P Sreeja </h3>
+                    <h3>Creativity</h3>
+                    <span>
+                        <a target="_top" href="mailto:sreejapeesa6773@gmail.com">
+                            sreejapeesa6773@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- team -->
+
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/sarthak.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Sarthak Shandilya </h3>
+                    <h3>Coverage</h3>
+                    <span>
+                        <a target="_top" href="mailto:shandilyasarthak9099@gmail.com">
+                            shandilyasarthak9099@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="img/aakash.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <!-- facebook -->
+                                <a target="_blank" href="https://www.facebook.com/chocklate2">
+                                    <i class="fa fa-facebook">
+                                    </i>
+                                </a>
+                                <!-- Linkedin -->
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-linkedin">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>
+                            Pushparaj Gupta </h3>
+                        <h3>Logistics</h3>
+                        <span>
+                            <a target="_top" href="mailto:Pspagpta@gmail.com">
+                                Pspagpta@gmail.com </a>
+                        </span>
+                    </div>
+                </div>
+
+            <!-- /team -->
+            <!-- team -->
+
+            <!-- /team -->
+            <!-- /Row -->
+        </div>
+
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+            <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="img/karn.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <!-- facebook -->
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-facebook">
+                                    </i>
+                                </a>
+                                <!-- Linkedin -->
+                                <a target="_blank" href="https://www.linkedin.com/in/karn-hooper-4309a5176">
+                                    <i class="fa fa-linkedin">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>
+                            Karn Hooper </h3>
+                        <h3>Logistics</h3>
+                        <span>
+                            <a target="_top" href="mailto:mekarn2014@gmail.com">
+                                mekarn2014@gmail.com </a>
+                        </span>
+                    </div>
+                </div>
+        
+
+            <!-- /Section header -->
+            <!-- team -->
+           
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/harsh.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://m.facebook.com/harshtiwarivm2000?ref=bookmarks">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Harsh Tiwari </h3>
+                    <h3>Logistics</h3>
+                    <span>
+                        <a target="_top" href="mailto:harshtiwarivm2000@gmail.com ">
+                            harshtiwarivm2000@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="img/shikhar.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <!-- facebook -->
+                                <a target="_blank" href="https://m.facebook.com/shikhar.sinha.794">
+                                    <i class="fa fa-facebook">
+                                    </i>
+                                </a>
+                                <!-- Linkedin -->
+                                <a target="_blank" href="#">
+                                    <i class="fa fa-linkedin">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>
+                            Shikhar Sinha </h3>
+                        <h3>Documentation</h3>
+                        <span>
+                            <a target="_top" href="mailto:shikharsinha123@gmail.com">
+                                shikharsinha123@gmail.com </a>
+                        </span>
+                    </div>
+                </div>
+
+            <!-- /team -->
+            <!-- /Row -->
+
+            
+
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+
+            <!-- /Section header -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/chirayu.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://www.facebook.com/chirayu.sanghvi.1?ref=bookmarks">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/chirayu-sanghvi-44629418a/">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Chirayu </h3>
+                    <h3>Documentation</h3>
+                    <span>
+                        <a target="_top" href="mailto:chirayusanghvi9@gmail.com">
+                            chirayusanghvi9@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/vedansh.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank"
+                                href="https://m.facebook.com/vedanshtora?ref_component=mbasic_home_header&ref_page=MChatBuddyListController">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="#">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Vedansh Tora </h3>
+                    <h3>Documentation</h3>
+                    <span>
+                        <a target="_top" href="mailto:vedubhai00@gmail.com">
+                            vedubhai00@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+            <div class="team">
+                    <div class="team-img">
+                        <img class="img-responsive" src="img/vinay.jpeg" alt="">
+                        <div class="overlay">
+                            <div class="team-social">
+                                <!-- facebook -->
+                                <a target="_blank" href="https://m.facebook.com/vinay.biradar.1675">
+                                    <i class="fa fa-facebook">
+                                    </i>
+                                </a>
+                                <!-- Linkedin -->
+                                <a target="_blank" href="https://www.linkedin.com/in/vinay-biradar-781145179">
+                                    <i class="fa fa-linkedin">
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>
+                            Vinay Biradar </h3>
+                        <h3>Event Management</h3>
+                        <span>
+                            <a target="_top" href="mailto:vinaybiradar1717@gmail.com">
+                                vinaybiradar1717@gmail.com </a>
+                        </span>
+                    </div>
+                </div>
+            <!-- /team -->
+            <!-- /Row -->
+
+            
+        </div>
+
+        <div class="container1">
+            <!-- Row -->
+            <!-- Section header -->
+
+            <!-- /Section header -->
+            <!-- team -->
+            
+            <!-- /team -->
+            <!-- team -->
+            <div class="team">
+                <div class="team-img">
+                    <img class="img-responsive" src="img/tilak.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="team-social">
+                            <!-- facebook -->
+                            <a target="_blank" href="https://m.facebook.com/tilak.singh2?ref=bookmarks">
+                                <i class="fa fa-facebook">
+                                </i>
+                            </a>
+                            <!-- Linkedin -->
+                            <a target="_blank" href="https://www.linkedin.com/in/tilak-singh-876bb6147">
+                                <i class="fa fa-linkedin">
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-content">
+                    <h3>
+                        Tilak Singh </h3>
+                    <h3>Publicity</h3>
+                    <span>
+                        <a target="_top" href="mailto:tilaks484@gmail.com">
+                            tilaks484@gmail.com </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!-- End Members -->
+    <!-- Footer -->
+    <footer class="footer" style="background: white;">
+        <!-- Your Company Name -->
+        <h2 class="company-name condensed uppercase white bold">The Entrepreneurship Development Center</h2>
+        <!-- Copyright -->
+        <p class="copyright normal" style="text-align: center;">© 2019-20 All Rights Reserved. Made with <i
+                class="fas fa-heart" style="color: red"></i> by EDC Web team.</p>
+    </footer>
+
+
+    <!-- JS Files -->
+
+    <!-- <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <!-- <script type="text/javascript" src="js/waypoints.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <!-- <script type="text/javascript" src="js/modernizr-latest.js"></script> -->
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.superslides.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.slabtext.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/myscroll.js"></script>
+
+    <!-- Theme Panel JS -->
+    <script type="text/javascript" src="theme-panel/theme-panel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+    <!-- End JS Files -->
+</body>
+
+</html>

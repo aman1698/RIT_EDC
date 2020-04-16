@@ -74,8 +74,8 @@ app.post("/",function(req,res){
     var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-    user: 'gupta.aman1602@gmail.com',
-    pass: '9336559951aman2305'
+    user: '',
+    pass: ''
     }
     });
     const mailOptions = {
